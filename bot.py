@@ -16,6 +16,7 @@ import functools
 import itertools
 import math
 import random
+import os
 
 import discord
 import youtube_dl
