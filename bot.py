@@ -512,7 +512,6 @@ async def on_ready():
     print('Logged in as:\n{0.user.name}\n{0.user.id}'.format(bot))
 
 
-config = configparser.ConfigParser()
-config.read('token.ini')
-bot_token = config.get('token', 'bot_token')
+
+bot_token = os.getenv("token")
 bot.run(bot_token)
