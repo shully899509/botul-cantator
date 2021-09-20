@@ -503,6 +503,7 @@ class Music(commands.Cog):
                 raise commands.CommandError('Bot is already in a voice channel.')
 
 
+
 bot = commands.Bot('music.', description='Yet another music bot.')
 bot.add_cog(Music(bot))
 
@@ -511,7 +512,20 @@ bot.add_cog(Music(bot))
 async def on_ready():
     print('Logged in as:\n{0.user.name}\n{0.user.id}'.format(bot))
 
-
+@bot.event
+async def on_message(message):
+    if message.author == bot.user:
+        return
+        
+    messages_from_mee6 = ['Sa ma iei de cuc {}'.format(message.author.mention),
+                          'Mama ta stie ca a fatat un ratat {}?'.format(message.author.mention),
+                          'De ce sugi pula atata {}?'.format(message.author.mention),
+                          '{} nu mai fii poponar'.format(message.author.mention),
+                          'Sugi pula {}'.format(message.author.mention),
+                          'Stii ceva {}? Tu chiar mananci sloboz cu cacat'.format(message.author.mention),
+                          'Muie {}. Ia la muie. Muie muie muie'.format(message.author.mention)]
+    if str(message.author.nick) == 'Modaru Nivelaru' and str(message.author) == 'MEE6#4876':
+        await message.channel.send(random.choice(messages_from_mee6))
 
 bot_token = os.getenv("token")
 bot.run(bot_token)
