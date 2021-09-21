@@ -514,7 +514,8 @@ async def on_ready():
 
 @bot.event
 async def on_message(message):
-    if str(message.author.nick) == 'Modaru Nivelaru' and str(message.author) == 'MEE6#4876':
+    mention = mention = f'<@!{bot.user.id}>'
+    if (str(message.author.nick) == 'Modaru Nivelaru' and str(message.author) == 'MEE6#4876') or '@317000109680230400' in message.content:
         messages_from_mee6 = ['Sa ma iei de cuc {}'.format(message.author.mention),
                               'Mama ta stie ca a fatat un ratat {}?'.format(message.author.mention),
                               'De ce sugi pula atata {}?'.format(message.author.mention),
