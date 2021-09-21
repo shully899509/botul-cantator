@@ -517,13 +517,25 @@ async def on_message(message):
     mention = f'<@!317000109680230400>'
     mention2 = f'<@317000109680230400>'
     
-    messages_from_mee6 = ['Sa ma iei de cuc {}',
-                          'Mama ta stie ca a fatat un ratat {}?',
+    messages_from_mee6 = ['Să mă iei de cuc {}',
+                          'Mama ta știe că a fătat un ratat {}?',
                           'De ce sugi pula atata {}?',
-                          '{} nu mai fii poponar',
+                          'Bă {}. Nu mai fii poponar',
                           'Sugi pula {}',
-                          'Stii ceva {}? Tu chiar mananci sloboz cu cacat',
-                          'Muie {}. Ia la muie. Muie muie muie']
+                          'Știi ceva {}? Tu chiar mănânci sloboz cu câcat',
+                          'Muie {}. Ia la muie. Muie muie muie',
+                          'Să-ți fut familia {}',
+                          '{} maimuţă electrocutată ce ești',
+                          'Te bag în pizda mã-tii cu picioarele înainte ca sã-ți dau și muie dupã aia {}',
+                          'Bă {}. Zii lui mã-ta sã nu îsi mai schimbe rujurile cã îmi face pula curcubeu',
+                          '{}, eu nu am pulã ...... destulã pentru mã-ta',
+                          'Să-mi usuc chiloții pe crucea mã-tii {}',
+                          'Bãgami-aș pula în capul lui {} de imbecil avortat',
+                          '{} Băgami-ai limba-n gaura curului să-mi gadili hemoroizii',
+                          '{} Daca slobozul ar eroda ma-ta ar fi la a 10-a proteza',
+                          '{} Auzi mă pulă bleagă o mai dor pe mă-ta genunchii ?',
+                          '{} Când mă uit la fața ta, îmi aduc aminte de cea mai nespălată pula pe care a supt-o mă-ta',
+                          '{} Du-te dracu că dacă te scutur odată îți pică pulele din cur precum merele din pom']
     
     if (str(message.author) == 'MEE6#4876'):
         if (str(message.author.nick) == 'Modaru Nivelaru'):
