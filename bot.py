@@ -515,15 +515,21 @@ async def on_ready():
 @bot.event
 async def on_message(message):
     mention = f'<@!317000109680230400>'
-    if (str(message.author.nick) == 'Modaru Nivelaru' and str(message.author) == 'MEE6#4876') or mention in message.content:
-        messages_from_mee6 = ['Sa ma iei de cuc {}'.format(message.author.mention),
-                              'Mama ta stie ca a fatat un ratat {}?'.format(message.author.mention),
-                              'De ce sugi pula atata {}?'.format(message.author.mention),
-                              '{} nu mai fii poponar'.format(message.author.mention),
-                              'Sugi pula {}'.format(message.author.mention),
-                              'Stii ceva {}? Tu chiar mananci sloboz cu cacat'.format(message.author.mention),
-                              'Muie {}. Ia la muie. Muie muie muie'.format(message.author.mention)]
-        await message.channel.send(random.choice(messages_from_mee6))
+    mention2 = f'<@317000109680230400>'
+    
+    messages_from_mee6 = ['Sa ma iei de cuc {}',
+                          'Mama ta stie ca a fatat un ratat {}?',
+                          'De ce sugi pula atata {}?',
+                          '{} nu mai fii poponar',
+                          'Sugi pula {}',
+                          'Stii ceva {}? Tu chiar mananci sloboz cu cacat',
+                          'Muie {}. Ia la muie. Muie muie muie']
+    
+    if (str(message.author) == 'MEE6#4876'):
+        if (str(message.author.nick) == 'Modaru Nivelaru'):
+            await message.channel.send(random.choice(messages_from_mee6).format(message.author.mention))           
+    if ((mention in message.content or mention2 in message.content) and str(message.author) == 'MEE6#0000'):
+        await message.channel.send(random.choice(messages_from_mee6).format(message.author.mention))
     else:
         await bot.process_commands(message)
 
