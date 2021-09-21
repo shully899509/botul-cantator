@@ -527,15 +527,15 @@ async def on_message(message):
                           'Să-ți fut familia {}',
                           '{} maimuţă electrocutată ce ești',
                           'Te bag în pizda mã-tii cu picioarele înainte ca sã-ți dau și muie dupã aia {}',
-                          'Bă {}. Zii lui mã-ta sã nu îsi mai schimbe rujurile cã îmi face pula curcubeu',
+                          'Bă {}. Zii lui mã-ta sã nu își mai schimbe rujurile cã îmi face pula curcubeu',
                           '{}, eu nu am pulã ...... destulã pentru mã-ta',
                           'Să-mi usuc chiloții pe crucea mã-tii {}',
                           'Bãgami-aș pula în capul lui {} de imbecil avortat',
-                          '{} Băgami-ai limba-n gaura curului să-mi gadili hemoroizii',
-                          '{} Daca slobozul ar eroda ma-ta ar fi la a 10-a proteza',
-                          '{} Auzi mă pulă bleagă o mai dor pe mă-ta genunchii ?',
-                          '{} Când mă uit la fața ta, îmi aduc aminte de cea mai nespălată pula pe care a supt-o mă-ta',
-                          '{} Du-te dracu că dacă te scutur odată îți pică pulele din cur precum merele din pom']
+                          '{} Băgami-ai limba-n gaura curului să-mi gâdili hemoroizii',
+                          '{} Daca slobozul ar eroda mă-ta ar fi la a 10-a proteză',
+                          '{} Auzi mă pulă bleagă, o mai dor pe mă-ta genunchii ?',
+                          '{} Când mă uit la fața ta, îmi aduc aminte de cea mai nespălată pulă pe care a supt-o mă-ta',
+                          'Du-te dracu {} că dacă te scutur odată îți pică pulele din cur precum merele din pom']
     
     if (str(message.author) == 'MEE6#4876'):
         if (str(message.author.nick) == 'Modaru Nivelaru'):
