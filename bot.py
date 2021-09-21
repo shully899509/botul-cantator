@@ -523,6 +523,8 @@ async def on_message(message):
                               'Stii ceva {}? Tu chiar mananci sloboz cu cacat'.format(message.author.mention),
                               'Muie {}. Ia la muie. Muie muie muie'.format(message.author.mention)]
         await message.channel.send(random.choice(messages_from_mee6))
+    else:
+        await bot.process_commands(message)
 
 bot_token = os.getenv("token")
 bot.run(bot_token)
