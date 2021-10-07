@@ -589,6 +589,8 @@ async def on_message(message):
         await message.channel.send(random.choice(messages_from_mee6).format(message.author.mention))
     else:
         await bot.process_commands(message)
+    if (str(message.author) == 'OmuRoshuCuUnBatz#8792' and 'muie popa' in message.content):
+        await message.channel.send('ceva {} {}'.format('mesaj', '@OmuRoshuCuUnBatz#8792'))
 
 bot_token = os.getenv("token")
 bot.run(bot_token)
