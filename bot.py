@@ -589,7 +589,7 @@ async def on_message(message):
         await message.channel.send(random.choice(messages_from_mee6).format(message.author.mention))
     else:
         await bot.process_commands(message)
-    if (str(message.author) == 'OmuRoshuCuUnBatz#8792' and 'muie popa' in message.content):
+    if (str(message.author) == 'OmuRoshuCuUnBatz#8792' and 'muie.popa' in message.content):
         await message.channel.send('{} Să-mi bag pula în gura mă-tii că nu rupe chitanțe pe facut muie'.format('<@!318429439690276864>'))
 
 bot_token = os.getenv("token")
