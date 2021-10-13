@@ -580,7 +580,9 @@ async def on_message(message):
                           '{} Bășită e mă-ta aia că se cacă pe ea non stop și tu o ștergi la cur cu gura',
                           '{} Să-mi bag pula în gura mă-tii că nu rupe chitanțe pe facut muie',
                           '{} Aș fi putut fi tatăl tău, dar țiganul din fața mea a avut mărunt. Eu nu.',
-                          '{} Mă-ta e ca un congelator: toată lumea își pune carnea în ea, vedea-o-aș chinuită în paturi de hotel!']
+                          '{} Mă-ta e ca un congelator: toată lumea își pune carnea în ea, vedea-o-aș chinuită în paturi de hotel!',
+                          'Sugruma-mi-ai ștromeleagul cu corzile tale vocale {}',
+                          'îneca-mi-ai pula cu saliva mă-tii {}']
     
     if (str(message.author) == 'MEE6#4876'):
         if (str(message.author.nick) == 'Modaru Nivelaru'):
