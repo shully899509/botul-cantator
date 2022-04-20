@@ -582,7 +582,31 @@ async def on_message(message):
                           '{} Aș fi putut fi tatăl tău, dar țiganul din fața mea a avut mărunt. Eu nu.',
                           '{} Mă-ta e ca un congelator: toată lumea își pune carnea în ea, vedea-o-aș chinuită în paturi de hotel!',
                           'Sugruma-mi-ai ștromeleagul cu corzile tale vocale {}',
-                          'îneca-mi-ai pula cu saliva mă-tii {}']
+                          'îneca-mi-ai pula cu saliva mă-tii {}',
+                          '{} Trage aer în cur că nu o să mai poți respira de atâta pulă câtă o să primești, sugea-mi-ai nectaru din pula.',
+                          'Câca-m-aș pe mormântu tău să aibe mă-ta în ce să înfigă lumanarea {}.',
+                          '{} Tu să-mi sufli în pulă până o să fac aburi să spui că te-am futut în stil trenuletz de epoca',
+                          '{} Dacă vrei coaie, hai la tata să ți le dea pe la buzișoare de n-ai să mai poți zice nici cum te cheamă, băi rahat cu girofar ce ești',
+                          'Esti o puțulică de sconcs pansat {}',
+                          '{} Am auzit ca mă-ta se duce noaptea când tu dormi, vinde un kil de pizdă, ia 500 g de pulă și iți dă dimineața, sub formă de cârnați să mănânci',
+                          'Dacă ai avea capu de fier, ar rugini de câtă muie ai luat {}. Am impresia că ai ramas încă în stadiul de spermatozoid',
+                          '{} E nesățioasă rău mă-ta, pot sa cred ca e rampă de lansare pentru putori ',
+                          '{} Zi-i lu mă-ta că mai are mult de supt ca să-ți plătească taxa de prost, atâta-i de mare',
+                          'Detona-mi-ași pula între măselele tale {}',
+                          'Să ai parte de felație de la toate babele peste 81 de ani {}',
+                          '{} Îți fac cunoștință cu domnu` Capu` Pulii până-n inima aia a ta de muist lăbar',
+                          'Acolo la școala mea era mă-ta educatoare {}. Ne educa pulile ca să se comporte bine în gura ei',
+                          'Ești de o prostie rară {}, rămân urme pe asfalt pe unde calci',
+                          'Dacă ar durea prostia cred că tu ai fi tot timpul in comă {}',
+                          'Să rozi fiecare spermatozoid între dinții tăi cariați de spermă {}.',
+                          '{} Dacă aș fi avut la momentul potrivit 10 de lei, acum ți-aș fi fost tată',
+                          'Să-ți îndop pula-n cur până faci ocluzie intestinală {}',
+                          '{} Limbajul tău denotă tulburari hormonale de virgin cu coșuri pe față',
+                          '{} Aurolacu pulii mele, ia pielița pulii, respiră în ea și o să ai un kinder cu surprize',
+                          '{} Mai ai ceva de zis să iți dau un cur de lins ',
+                          'Lua-mi-ai câcatul la polizor să-ți sară așchii în gură {}',
+                          'Să-mi bag coaiele în gura lu mă-ta {}. La tine n-am curaj că mi le înghiți',
+                          '{} Să mă plimb cu trenu unde mă-ta e pe post de taxator cu pizdă la urcarea în vagoane']
     
     if (str(message.author) == 'MEE6#4876'):
         if (str(message.author.nick) == 'Modaru Nivelaru'):
